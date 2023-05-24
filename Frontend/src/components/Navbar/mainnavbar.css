@@ -1,0 +1,33 @@
+.nav-link {
+  font-family: "jost,sans-serif";
+  font-size: 20px;
+  color: white !important;
+  margin-left: 50px;
+}
+.navbar {
+  position: fixed !important;
+  top: 60px;
+  width: 100%;
+  z-index: 1;
+}
+.main_navbar_content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_title {
+  display: none;
+}
+@media screen and (max-width: 769px) {
+  .nav_title {
+    display: inline;
+    color: white !important;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 1440px) and(min-width: 770px) {
+  .nav_title {
+    display: none !important;
+  }
+}

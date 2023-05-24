@@ -1,0 +1,27 @@
+.buttons {
+  width: 90%;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: #7962c5;
+  font-family: Jost, sans-serif;
+  font-size: 15px;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 425px) {
+  .buttons {
+    width: 30% !important;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: #7962c5;
+    font-family: Jost, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    margin-right: 5px;
+  }
+}

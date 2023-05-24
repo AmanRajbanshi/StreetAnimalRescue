@@ -1,0 +1,24 @@
+.sign_up_text {
+  text-align: start;
+}
+.login_form_column {
+  margin-top: 62px !important;
+  background-image: linear-gradient(
+    to right,
+    #b7aae0 0%,
+
+    #7962c5 100%
+  );
+  width: 100%;
+}
+@media screen and (max-width: 426px) {
+  .image_of_register {
+    display: none;
+  }
+  .main_register_container {
+    margin-top: 80px;
+  }
+  .login_form_column {
+    height: 600px !important;
+  }
+}

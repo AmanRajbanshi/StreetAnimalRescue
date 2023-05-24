@@ -1,0 +1,6 @@
+http://localhost:5000/api/v1/events
+http://localhost:5000/api/v1/users/login
+http://localhost:5000/api/v1/users/register
+
+
+npm run start:nodemon

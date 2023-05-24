@@ -1,0 +1,165 @@
+.newsletter_signup_title {
+  text-align: center;
+}
+.hr_line {
+  text-align: center !important;
+  color: black !important;
+}
+.background_image {
+  background-color: rgb(239, 241, 243);
+}
+
+.hr_lines_in_newsletter_signup:before,
+.hr_lines_in_newsletter_signup:after {
+  background-color: #9d92e8;
+  content: "";
+  display: inline-block;
+  height: 5px;
+  position: relative;
+  vertical-align: middle;
+  width: 5%;
+}
+
+.hr_lines_in_newsletter_signup:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.hr_lines_in_newsletter_signup:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+.form_content {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.email_for_newsletter {
+  color: #9d92e8;
+  padding-left: 20px;
+  border: none !important;
+  width: 50% !important;
+}
+.email_for_newsletter:focus {
+  border: none !important;
+  outline: none !important;
+}
+
+.email_for_newsletter::placeholder {
+  color: #9d92e8;
+  padding-left: 20px;
+  border: none !important;
+  width: 100% !important;
+}
+.subscribe_now {
+  background-color: #9d92e8;
+  color: white;
+  border: none;
+  width: 15%;
+  height: 50px;
+}
+.email_for_newsletter {
+  width: 37%;
+  height: 50px;
+  margin-left: 55px;
+}
+.main_col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 376px) and (min-width: 320px) {
+  .form_content {
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+  }
+
+  .email_for_newsletter {
+    color: #9d92e8;
+    margin-left: 0px;
+    padding: 20px;
+    border: none !important;
+    width: 250px !important;
+  }
+
+  .email_for_newsletter::placeholder {
+    color: #9d92e8;
+    border: none !important;
+    width: 100% !important;
+  }
+  .subscribe_now {
+    background-color: #9d92e8;
+    color: white;
+    margin-top: 0px;
+    padding: 2px;
+    width: 70% !important;
+  }
+  .main_col {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .hr_lines:before,
+  .hr_lines:after {
+    background-color: #9d92e8;
+    content: "";
+    display: inline-block;
+    height: 5px;
+    position: relative;
+    vertical-align: middle;
+    width: 5%;
+  }
+
+  .hr_lines:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+
+  .hr_lines:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+}
+@media screen and (max-width: 426px) and (min-width: 377px) {
+  .email_for_newsletter {
+    color: #9d92e8;
+    margin-left: 0px;
+    padding: 20px;
+    border: none !important;
+    width: 250px !important;
+  }
+
+  .email_for_newsletter::placeholder {
+    color: #9d92e8;
+    border: none !important;
+    width: 100% !important;
+  }
+  .subscribe_now {
+    background-color: #9d92e8;
+    padding: 2px;
+    color: white;
+    margin-top: 0px;
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 769px) and (min-width: 427px) {
+  .form_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .email_for_newsletter {
+    width: 50% !important;
+    height: 50px;
+    margin-left: 0px;
+  }
+  .subscribe_now {
+    background-color: #9d92e8;
+    color: white;
+    width: 15%;
+    height: 50px;
+    margin-top: 0px;
+  }
+}

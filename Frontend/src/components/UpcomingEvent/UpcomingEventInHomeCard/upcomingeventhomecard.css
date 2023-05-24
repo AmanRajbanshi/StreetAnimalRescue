@@ -1,0 +1,46 @@
+.upcoming_event_home_card {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border: none;
+  margin-top: 10px;
+}
+.badge_data {
+  display: flex;
+  justify-content: space-between !important;
+  flex-direction: row;
+  width: 100%;
+}
+
+@media screen and (max-width: 426px) {
+  .badge_data {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 769px) and (min-width: 426px) {
+  .upcoming_event_home_card {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border: none;
+    margin-top: 10px;
+    width: 100% !important;
+  }
+  .badge_data {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1440px) and (min-width: 770px) {
+  .upcoming_event_home_card {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border: none;
+    margin-top: 10px;
+    width: 100% !important;
+  }
+  .badge_data {
+    width: 100%;
+    display: flex;
+    justify-content: space-between !important;
+    flex-direction: row;
+  }
+}

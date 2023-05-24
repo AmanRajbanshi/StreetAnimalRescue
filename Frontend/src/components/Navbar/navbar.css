@@ -1,0 +1,33 @@
+.sideButton {
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  position: fixed !important;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
+.nav-link {
+  font-family: "jost,sans-serif";
+  font-size: 20px;
+  color: white !important;
+  margin-left: 50px;
+}
+.nav-brand,
+.btn {
+  font-family: "jost,sans-serif";
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .sideButton {
+    display: flex;
+    flex-direction: row !important;
+    padding: 5px;
+  }
+  .nav-link {
+    font-size: 20px;
+    color: white !important;
+    margin-left: 0px;
+  }
+}

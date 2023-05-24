@@ -1,0 +1,56 @@
+.collecting_street_animal_title,
+.rescuing_street_animal_title,
+.caring_street_animal_title {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  line-height: 48px;
+  color: rgb(33, 37, 41);
+}
+
+.collecting_street_animal_description,
+.rescuing_street_animal_description,
+.caring_street_animal_description {
+  font-family: Raleway, "sans-serif";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(33, 37, 41);
+}
+.rescuing_street_animal_section {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.collecting_street_animal_image,
+.rescuing_street_animal_image,
+.caring_street_animal_image {
+  border-radius: 50px;
+}
+.collecting_street_animal_image,
+.rescuing_street_animal_image,
+.caring_street_animal_image {
+  width: 90%;
+  height: 90%;
+}
+
+.collecting_street_animal_section {
+  margin-top: 62px !important;
+}
+
+@media screen and (min-width: 320px) {
+  .collecting_street_animal_image,
+  .rescuing_street_animal_image,
+  .caring_street_animal_image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .rescuing_street_animal_description_section {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+  }
+  .rescuing_street_animal_image_section {
+    display: flex;
+    order: 1;
+  }
+}

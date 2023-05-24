@@ -1,0 +1,9 @@
+@media screen and (max-width: 769px) {
+  .first_column_in_event_section {
+    width: 100%;
+  }
+
+  .second_column_in_event_section {
+    display: none !important;
+  }
+}
