@@ -1,4 +1,8 @@
 # StreetAnimalRescue
+Street Animal Rescue highlights the importance of treating street animals with kindness and empathy,
+recognizing that they too deserve to be treated with respect and
+care and also fact that homelessness should not be a barrier to receiving love and support.
+
 This project is a comprehensive web application that offers a dynamic and interactive user experience. On the front end,
 it utilizes React, with React Router for seamless navigation, React Count Up for animated number displays,
 and React Share for easy social media sharing. For payment processing, the app integrates Khalti Checkout Web.
